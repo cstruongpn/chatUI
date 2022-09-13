@@ -13,8 +13,8 @@ html {
 }
 .card {
   height: 500px;
-  border-radius: 15px !important;
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 20px !important;
+  border-color: #000000;
 }
 
 .msg_time_send {
@@ -57,10 +57,12 @@ html {
 .card-header {
   border-radius: 15px 15px 0 0 !important;
   border-bottom: 0 !important;
+  background-color: rgba(51, 133, 255, 0.9) !important;
 }
 .card-footer {
   border-radius: 0 0 15px 15px !important;
   border-top: 0 !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
 }
 .container {
   align-content: center;
@@ -77,9 +79,9 @@ html {
 }
 .type_msg {
   border-radius: 15px 0 0 15px !important;
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: rgb(255, 255, 255) !important;
   border: 0 !important;
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   height: 60px !important;
   overflow-y: auto;
 }
@@ -96,7 +98,7 @@ html {
 }
 .send_btn {
   border-radius: 0 15px 15px 0 !important;
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: rgba(51, 133, 255, 0.9) !important;
   border: 0 !important;
   color: white !important;
   cursor: pointer;
