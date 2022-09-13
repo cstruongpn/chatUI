@@ -45,6 +45,34 @@ $(document).ready(function () {
             </div>
         </div>`
     $("body").append(popUp)
+
+    // // Create new link Element
+    const link1 = document.createElement('link');
+    link1.rel = "stylesheet";
+    link1.href = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css";
+    link1.integrity = "sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO";
+    link1.crossOrigin = "anonymous";
+    document.head.appendChild(link1);
+
+    const link2 = document.createElement('link');
+    link2.rel = "stylesheet";
+    link2.href = "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+    link2.integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU";
+    link2.crossOrigin ="anonymous";
+    document.head.appendChild(link2);
+
+    const link3 = document.createElement('link');
+    link3.rel="stylesheet";
+    link3.type="text/css";
+    link3.href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css";
+    document.head.appendChild(link3);
+
+    const link4 = document.createElement('link');
+    link4.rel="icon";
+    link4.type="image/png";
+    link4.href="https://github.com/cstruongpn/chatUI/blob/master/logo.png?raw=true";
+    document.head.appendChild(link4);
+
     // check status server
     let statusServer = true;
     (() => {
@@ -86,7 +114,7 @@ $(document).ready(function () {
                 <span class="msg_time_send">8:55 AM, Today</span>
             </div>
             <div class="img_cont_msg">
-                <img src="static/chatbot/img/user.png" class="rounded-circle user_img_msg">
+                <img src="https://github.com/cstruongpn/chatUI/blob/master/user.png?raw=true" class="rounded-circle user_img_msg">
             </div>
         </div>
         `
